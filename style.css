@@ -100,6 +100,7 @@ body {
 #services {
   background-color: #f9f9f9;
   padding: 60px 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -142,4 +143,82 @@ body {
   font-size: 1rem;
   color: #333;
   line-height: 1.6;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+#contact ul li {
+  font-size: 1rem;
+  color: #5B1A18;
+  margin-bottom: 8px;
+}
+
+/* Form Styles */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contact label {
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #5B1A18;
+  outline: none;
+}
+
+#contact button {
+  background-color: #5B1A18;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #3e0f0e;
 }
