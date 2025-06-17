@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
 }
-
+/*  ##### HOMEPAGE #####  */
 /* Hero Section */
 #hero {
   background-color: #000;
@@ -221,4 +221,28 @@ body {
 
 #contact button:hover {
   background-color: #3e0f0e;
+}
+
+/*  ##### SERVICES PAGE #####  */
+/* Construction Section */
+#construction {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Remodel Section */
+#remodel {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Welding Section */
+#welding {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
 }
