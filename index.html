@@ -7,12 +7,18 @@
 </head>
 
 <body>
-    <section class="hero">
-
+    <section id="hero">
+        <div class="logo" >
+          <h1>LOGO</h1>
+        </div>
+        <div class="tag">
+          <h3>Let us constuct your vision!</h3>
+        </div>
     </section>
 
-    <section class="about">
+    <section id="about">
       <div class="desc">
+        <h1><strong>About Us</strong></h1>
         <h1>Brief company description</h1>
         <h2>Mission Satement</h2>
       </div>
@@ -31,12 +37,53 @@
 
     </section>
 
-    <section class="services">
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="service-cards">
 
-    </section>
+    <div class="service">
+      <h3>New Construction</h3>
+      <p>From blueprint to build, we create strong, custom homes and commercial spaces tailored to your vision.</p>
+    </div>
 
-    <section class="contact">
+    <div class="service">
+      <h3>Remodel</h3>
+      <p>Transform your existing space with expert remodeling—whether it's a kitchen upgrade, home addition, or full renovation.</p>
+    </div>
 
-    </section>
+    <div class="service">
+      <h3>Welding</h3>
+      <p>Precision welding services for structural frames, gates, railings, and more—built to last and look great.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Ready to start your next project? Let’s build your vision.</p>
+
+  <ul>
+    <li><strong>Phone:</strong> (580) 624-0426</li>
+    <li><strong>Email:</strong> info@constructavision.com</li>
+    <li><strong>Location:</strong> 123 Main St, YourTown, USA</li>
+    <li><strong>Hours:</strong> Mon–Fri: 8am–6pm</li>
+  </ul>
+
+  <form action="mailto:info@constructavision.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
 
 </body>
