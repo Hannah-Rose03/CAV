@@ -227,9 +227,57 @@ body {
 /* Construction Section */
 #construction {
   background-color: #f9f9f9;
-  padding: 60px 20px;
+  padding: 80px 20px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+/* Section Title & Description */
+.description h1 {
+  font-size: 2.2rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.description h3 {
+  font-size: 1.2rem;
+  color: #5B1A18;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+/* Capabilities List */
+.capabilities ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  max-width: 600px;
+  margin: 0 auto 60px;
+  padding: 0;
+  text-align: left;
+}
+
+.capabilities li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  scroll-snap-align: start;
 }
 
 /* Remodel Section */
