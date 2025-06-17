@@ -24,7 +24,7 @@ body {
 
 /* Transparent tag background */
 #hero .tag {
-  background-color: rgba(255, 255, 255, .8); /* super light transparent white */
+  background-color: #f9f9f9; /* super light transparent white */
   padding: 20px 40px;
   border-radius: 8px;
   backdrop-filter: blur(2px); /* optional: soft blur for effect */
@@ -40,9 +40,61 @@ body {
 /* About Us Section */
 #about {
   background-color: #f9f9f9;
-  padding: 60px 20px;
+  padding: 80px 20px 100px; 
+  margin-bottom: 10px; /* adds separation before Services */
   text-align: center;
 }
+
+/* Description Section */
+#about .desc h1:first-of-type {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#about .desc h1:last-of-type {
+  font-size: 1.5rem;
+  color: #5B1A18; /* Maroon accent */
+  margin-bottom: 10px;
+}
+
+#about .desc h2 {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+/* Profile Cards */
+#about .photo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd; /* placeholder gray */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #5B1A18; /* optional maroon border */
+}
+
+/* Name Text */
+.text {
+  font-size: 1.1rem;
+  color: #5B1A18;
+  font-weight: 600;
+}
+
 
 /* Services Section */
 #services {
