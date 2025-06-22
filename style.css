@@ -284,3 +284,36 @@ body {
   padding: 60px 20px;
   text-align: center;
 }
+
+/*  ##### GALLERY PAGES #####  */
+.project {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #5B1A18;
+    margin-bottom: 15px;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  scroll-snap-align: start;
+}
