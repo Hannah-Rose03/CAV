@@ -133,8 +133,9 @@ body {
   transform: translateY(-5px);
 }
 
-.service h3 {
+.service a {
   font-size: 1.5rem;
+  font-weight: bolder;
   color: #5B1A18;
   margin-bottom: 15px;
 }
