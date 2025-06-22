@@ -263,22 +263,11 @@ body {
   margin-bottom: 10px;
 }
 
-.gallery {
-  display: flex;
-  overflow-x: auto;
-  gap: 16px;
-  padding: 20px 0;
-  scroll-snap-type: x mandatory;
-}
-
-.gallery img {
-  flex: 0 0 auto;
-  width: 250px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 2px solid #ccc;
-  scroll-snap-align: start;
+.photo a {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
 }
 
 /* Remodel Section */
