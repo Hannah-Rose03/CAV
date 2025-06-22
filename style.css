@@ -52,6 +52,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
+  position: relative;
+}
+
+.site-nav li {
+  position: relative;
 }
 
 .site-nav a {
@@ -60,12 +65,13 @@ body {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
+  padding: 10px;
+  display: block;
 }
 
 .site-nav a:hover {
   color: #5B1A18; /* maroon accent */
 }
-
 
 /* About Us Section */
 #about {
@@ -293,11 +299,20 @@ body {
   margin-bottom: 10px;
 }
 
+.photo-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 75px;
+}
+
+.home a,
 .photo a {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: #000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
 }
 
 /* Remodel Section */
