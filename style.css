@@ -462,6 +462,15 @@ body {
     max-width: 80px;
   }
 
+  .footer-social {
+  margin-top: 10px;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+}
+
   /* Contact Page spacing */
   #contact form {
     padding: 0 10px;
