@@ -407,3 +407,69 @@ body {
   border: 2px solid #ccc;
   scroll-snap-align: start;
 }
+
+/*  ##### MOBILE FRIENDLY #####  */
+@media (max-width: 768px) {
+  /* Hero Section */
+  #hero .logo img {
+    max-width: 300px;
+  }
+
+  #hero .tag h3,
+  #about .desc h1:first-of-type,
+  #services h2,
+  #contact h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Profile Section */
+  #about .photo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Services Cards */
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 90%;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-logo img {
+    max-width: 80px;
+  }
+
+  /* Contact Page spacing */
+  #contact form {
+    padding: 0 10px;
+  }
+
+  /* Photo link buttons */
+  .photo-link {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 20px;
+    align-items: stretch;
+  }
+
+  .home a,
+  .photo a {
+    text-align: center;
+  }
+
+  /* Dropdown nav */
+  .site-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
