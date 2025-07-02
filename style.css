@@ -446,6 +446,14 @@ body {
   margin-bottom: 30px;
 }
 
+.error-returns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 75px;
+}
+
 .home-link {
   display: inline-block;
   font-size: 1rem;
