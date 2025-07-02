@@ -409,8 +409,8 @@ body {
 
 .gallery img {
   flex: 0 0 auto;
-  width: 250px;
-  height: 160px;
+  width: 320px;
+  height: 200px;
   object-fit: cover;
   border-radius: 8px;
   border: 2px solid #ccc;
@@ -494,4 +494,23 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+
+  .gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  scroll-snap-align: start;
+}
+
 }
