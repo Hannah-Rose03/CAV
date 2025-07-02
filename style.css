@@ -409,8 +409,8 @@ body {
 
 .gallery img {
   flex: 0 0 auto;
-  width: 320px;
-  height: 200px;
+  width: 400px;
+  height: 255px;
   object-fit: cover;
   border-radius: 8px;
   border: 2px solid #ccc;
