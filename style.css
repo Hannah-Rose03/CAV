@@ -417,6 +417,51 @@ body {
   scroll-snap-align: start;
 }
 
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.error-container h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #5B1A18;
+  margin: 0;
+}
+
+.error-container h2 {
+  font-size: 2rem;
+  color: #000;
+  margin: 10px 0;
+}
+
+.error-container p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.home-link {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: #5B1A18;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #3e0f0e;
+}
+
 /*  ##### MOBILE FRIENDLY #####  */
 @media (max-width: 768px) {
   /* Hero Section */
