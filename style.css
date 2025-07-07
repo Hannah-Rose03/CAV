@@ -88,16 +88,16 @@ body {
   margin-bottom: 20px;
 }
 
-#about .desc h2:first-of-type {
-  font-size: 1.3rem;
+#about .desc h2 {
+  font-size: 20px;
   color: #5B1A18; /* Maroon accent */
   margin-bottom: 10px;
 }
 
-#about .desc h2:last-of-type {
+#about .desc h3 {
   font-size: 1.2rem;
   color: #333;
-  font-weight: normal;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 
