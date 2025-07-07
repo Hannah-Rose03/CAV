@@ -82,19 +82,19 @@ body {
 }
 
 /* Description Section */
-#about .desc h1:first-of-type {
+#about .desc h1 {
   font-size: 2.5rem;
   color: #000;
   margin-bottom: 20px;
 }
 
-#about .desc h1:last-of-type {
-  font-size: 1.5rem;
+#about .desc h2:first-of-type {
+  font-size: 1.3rem;
   color: #5B1A18; /* Maroon accent */
   margin-bottom: 10px;
 }
 
-#about .desc h2 {
+#about .desc h2:last-of-type {
   font-size: 1.2rem;
   color: #333;
   font-weight: normal;
