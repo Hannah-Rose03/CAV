@@ -147,12 +147,14 @@ body {
 
 /* Services Section */
 #services {
+  display: block;          /* ensure it's treated as a full block */
+  position: relative;      /* establish positioning context */
   background-color: #f9f9f9;
-  width: 100%;            /* full container width */
-  max-width: 100%;        /* prevent accidental overflow */
-  margin: 0 auto;         /* center the block */
-  padding: 60px 20px;     /* keep your spacing */
-  box-sizing: border-box;
+  width: 100%;             /* stretch across parent */
+  max-width: none;         /* no max width restriction */
+  margin: 0;               /* no margins that might expose body */
+  padding: 60px 20px;      /* your spacing */
+  box-sizing: border-box;  /* include padding in width */
 }
 
 #services h2 {
