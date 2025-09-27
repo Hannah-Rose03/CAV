@@ -161,7 +161,7 @@ body {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #000;
-  font-weight: 800;  /* make it bolder for clarity */
+  text-align: center;
 }
 
 .service-cards {
@@ -528,11 +528,6 @@ body {
     box-sizing: border-box;   /* include padding in width */
   }
   
-  #services h2 {
-    font-size: 1.8rem;   /* smaller on phones */
-    margin-bottom: 24px; /* tighten spacing */
-    }
-
   .description h3 {
     padding: 0px 20px;
   }
