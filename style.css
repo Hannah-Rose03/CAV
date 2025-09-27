@@ -504,7 +504,7 @@ body {
     box-sizing: border-box; /* ensure padding is included in width */
   }
 
-  .service {
+  #services {
     width: 100%;            /* take full width of container */
     max-width: 400px;       /* cap on tablets */
     margin: 0 auto 20px;    /* center & spacing */
