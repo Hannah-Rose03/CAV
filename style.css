@@ -148,10 +148,10 @@ body {
 /* Services Section */
 #services {
   background-color: #f9f9f9;
-  width: 100vw;          /* force full viewport width */
-  max-width: 100%;       /* prevent accidental restriction */
-  margin: 0;             /* no side margins */
-  padding: 60px 20px;    /* keep your padding */
+  width: 100%;            /* full container width */
+  max-width: 100%;        /* prevent accidental overflow */
+  margin: 0 auto;         /* center the block */
+  padding: 60px 20px;     /* keep your spacing */
   box-sizing: border-box;
 }
 
