@@ -1,3 +1,9 @@
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
@@ -505,7 +511,7 @@ body {
 
   .service {
     width: 100%;           /* full width of parent */
-    max-width: 400px;      /* cap only the card itself */
+    max-width: 300px;      /* cap only the card itself */
     margin: 0 auto 20px;   /* center & spacing between cards */
   }
 
