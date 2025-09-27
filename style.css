@@ -496,18 +496,17 @@ body {
 
   /* Services Cards */
   .service-cards {
-    display: flex;          /* make sure flex is active */
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 0 16px;        /* give just a bit more room than 10px */
-    box-sizing: border-box; /* ensure padding is included in width */
+    padding: 0 16px;       /* keep some breathing room */
+    box-sizing: border-box;
   }
 
-  #services {
-    width: 100%;            /* take full width of container */
-    max-width: 400px;       /* cap on tablets */
-    margin: 0 auto 20px;    /* center & spacing */
+  .service {
+    width: 100%;           /* full width of parent */
+    max-width: 400px;      /* cap only the card itself */
+    margin: 0 auto 20px;   /* center & spacing between cards */
   }
 
   .description h3 {
