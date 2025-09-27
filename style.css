@@ -1,3 +1,8 @@
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 {
   box-sizing: border-box;
   margin: 0;
@@ -505,14 +510,15 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 0 16px;       /* keep some breathing room */
-    box-sizing: border-box;
+    padding: 0 16px;          /* keep breathing room */
+    box-sizing: border-box;   /* include padding in width */
   }
 
   .service {
-    width: 100%;           /* full width of parent */
-    max-width: 300px;      /* cap only the card itself */
-    margin: 0 auto 20px;   /* center & spacing between cards */
+    width: 100%;              /* full width */
+    max-width: 100%;          /* prevent fixed width overflow */
+    margin: 0 auto 20px;      /* center + spacing */
+    box-sizing: border-box;   /* include padding in width */
   }
 
   .description h3 {
@@ -531,13 +537,13 @@ body {
   }
 
   .footer-social {
-  margin-top: 10px;
-}
+    margin-top: 10px;
+  }
 
-.footer-social img {
-  width: 28px;
-  height: 28px;
-}
+  .footer-social img {
+    width: 28px;
+    height: 28px;
+  }
 
   /* Contact Page spacing */
   #contact form {
@@ -564,21 +570,20 @@ body {
   }
 
   .gallery {
-  display: flex;
-  overflow-x: auto;
-  gap: 16px;
-  padding: 20px 0;
-  scroll-snap-type: x mandatory;
-}
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+  }
 
-.gallery img {
-  flex: 0 0 auto;
-  width: 250px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 2px solid #ccc;
-  scroll-snap-align: start;
-}
-
+  .gallery img {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    scroll-snap-align: start;
+  }
 }
