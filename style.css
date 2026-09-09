@@ -763,6 +763,43 @@ body {
   padding: 9px;
 }
 
+/* =========================================
+   REQUEST A QUOTE CTA
+   ========================================= */
+
+.quote-cta {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.quote-cta h3 {
+  margin-bottom: 10px;
+}
+
+.quote-cta p {
+  margin-bottom: 22px;
+}
+
+.quote-button {
+  display: inline-block;
+  background: #791a3d;
+  color: #fff;
+  padding: 13px 28px;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease,
+              transform 0.2s ease;
+}
+
+.quote-button:hover {
+  background: #641632;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
 
 /* =========================================
    MOBILE
